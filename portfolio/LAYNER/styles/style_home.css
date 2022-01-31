@@ -1,0 +1,162 @@
+@import url("/styles/style_appartment.css");
+@import url("/styles/style_gallery.css");
+@import url("/styles/style_services.css");
+@import url("/styles/contact.css");
+@import url("/styles/slick.css");
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Montserrat', serif;
+}
+
+
+/* ----header---- */
+
+.header_clone {
+    height: 90px;
+    background: #1e7ed1f6;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    height: 90px;
+    width: 100%;
+    padding: 0 75px;
+    background-color: #1e7ed1f6;
+    ;
+    align-items: center;
+}
+header .header_logo{
+    width: 15%;
+    display: flex;
+    align-items: center;
+
+}
+header nav{
+    width: 70%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+a:hover{
+    color: #FDFF89;
+
+}
+.active_link{
+    color: #FDFF89;
+
+}
+
+header .header_social{
+    display: flex;
+    justify-content: end;
+    width: 15%;
+}
+.header_social img{
+    margin-left: 10px;
+}
+
+.header_social img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* ----home_section---- */
+
+.home_section{
+    /* margin-top: 90px; */
+    height: 810px;
+    background: url('/images/home/bg_home.jpg') center center/cover no-repeat;
+    padding-top: 90px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.home_title{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.home_subtitle{
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(144, 202, 249, 0.48);
+    height: 150px;
+    margin-top: 50px;
+    padding: 50px;
+    color: #000;
+}
+
+form #data{
+    width: 285px;
+    height: 50px;
+    color: grey;
+}
+form #adults{
+    width: 135px;
+    height: 50px;
+    color: grey;
+
+}
+form #kids{
+    width: 95px;
+    height: 50px;
+    color: grey;
+}
+form #promo {
+    width: 135px;
+    height: 50px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+form button{
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background-color: #0D47A1;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+#data:hover {
+    cursor: pointer;
+}
+#adults:hover {
+    cursor: pointer;
+}
+
+form button:hover {
+    cursor: pointer;
+}
