@@ -1,0 +1,43 @@
+
+/* contact section */
+
+.contact {
+    position: relative;
+    height: 140px;
+    width: 100%;
+    background-color: #1e7ed1f6;
+    padding: 15px 0 0 0;
+}
+
+.social_block {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social_block img {
+    margin: 0 30px;
+  
+}
+
+.social_block img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.contact .footer_title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact .footer_rights {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #166cb8f6;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
