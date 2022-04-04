@@ -52,6 +52,7 @@ html {
   background-color: transparent;
   width: 30px;
   height: 30px;
+  
 }
 
 .header .burger .burger__item {
@@ -708,6 +709,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   margin: 70px auto 0 auto;
 }
 
@@ -1006,6 +1010,7 @@ html {
     background: rgba(75, 127, 131, 0.8);
   }
   .header .header__wrapper .header__phone {
+    display: none;
     margin-top: 50px;
     width: 100%;
     color: #fff;
@@ -1179,6 +1184,8 @@ html {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    display: flex;
+    justify-content: start;
   }
   .benefits .main-wrapper .wrapper .item {
     margin-top: 50px;
