@@ -1,0 +1,65 @@
+.footer {
+    height: 150px;
+    background: rgba(50, 50, 50, 1);
+    padding-top: 56px;
+
+    .container {
+        
+
+        .footer__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .agency {
+                margin-left: 20px;
+                font-size: 14px;
+                color: rgba(133, 133, 133, 1);
+                position: relative;
+
+                &::before {
+                    content: url('../icons/stone-footer.svg');
+                    position: absolute;
+                    left: -30px;
+                    bottom: -4px;
+                    opacity: .9;
+
+                }
+            }
+            .btn-footer {
+                width: 300px;
+                height: 40px;
+                background: rgba(77, 77, 77, 0.2);
+                border: rgba(199, 170, 139, 1) 2px solid;
+                color: rgba(199, 170, 139, 1);
+                font-size: 16px;
+                text-transform: uppercase;
+                transition: .1s linear;
+                outline: none;
+                &:hover {
+                    background: #C7AA8B;
+                    color: rgb(77, 77, 77);
+                    cursor: pointer;
+                    transition: .1s linear;
+                }
+
+            }
+            .address {
+                font-size: 14px;
+                color: rgba(133, 133, 133, 1);
+                font-style: normal;
+            }
+
+    
+        }    
+    }
+}
+
+.scroll_up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    opacity: .8;
+}

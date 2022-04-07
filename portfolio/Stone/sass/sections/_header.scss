@@ -1,0 +1,124 @@
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #323232;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.13);
+    
+    .container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        .header__logo {
+            display: flex;
+            margin-right: 32px;
+
+            img {
+                width: 18px;
+                height: 22px;
+                margin-right: 5px;
+            }
+            .header__logo-name {
+                text-transform: uppercase;
+                font-size: 24px;
+                color: #EDEDED;
+            }
+        }
+        .nav {
+            display: flex;
+            
+            a {
+                text-decoration: none;
+            }
+
+            .nav__link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 60px;
+                width: 105px;
+                font-size: 15px;
+                color: #EDEDED;
+                border-right: 1px solid #4D4D4D;
+                text-transform: uppercase;
+                transition: .1s linear;
+                &:first-child {
+                    border-left: 1px solid #4D4D4D;
+                }
+                &:hover {
+                    background: #000;
+                    color: #C7AA8B;
+                    transition: .1s linear;
+
+                }
+
+            }
+        }
+        .header__social {
+            display: flex;
+            position: absolute;
+            right: 0;
+            .social__item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 60px;
+                height: 60px;
+                border-right: 1px solid #4D4D4D;
+                transition: .1s linear;
+
+                &:first-child {
+                    border-left: 1px solid #4D4D4D;
+                }
+                &:hover {
+                    background: #000;
+                    transition: .1s linear;
+                    cursor: pointer;
+
+                    img {
+                        transition: .1s linear;
+                        transform: rotate(15deg);
+                    }
+                }
+                img {
+                    transition: .1s linear;
+                    
+                }
+            }
+        }
+        .burger {
+            display: none;
+            outline: none;
+            background: none;
+            border: none;
+            height: 30px;
+            cursor: pointer;
+            .burger__item {
+                display: block;
+                width: 30px;
+                height: 3px;
+                background: #C7AA8B;
+                position: relative;
+                &:before,
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background: #C7AA8B;
+                    position: absolute;
+                    left: 0;
+                    z-index: 1;
+                }
+                &:before {
+                    top: -8px;
+                }
+                &:after {
+                    bottom: -8px
+                }
+
+            }
+        }
+    }
+}

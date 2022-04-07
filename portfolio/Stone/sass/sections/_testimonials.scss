@@ -1,0 +1,44 @@
+.testimonials {
+    height: 386px;
+    padding-top: 80px;
+    background: rgba(247, 247, 247, 1);
+    .container {
+        width: 784px;
+        text-align: center;
+
+        .title {
+            font-size: 15px;
+            color: rgba(50, 50, 50, 0.36);
+        }
+        .line {
+            margin: 15px auto 0 auto;
+            width: 60px;
+            height: 2px;
+            background: rgba(50, 50, 50, 0.18);
+
+        }
+        .wrapper {
+            margin-top: 45px;
+            display: flex;
+            flex-wrap: wrap;
+            .comment {
+                max-width: 360px;
+                margin: 0 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .comment_text {
+                    font-size: 18px;
+                    color: rgba(77, 77, 77, 1);
+                    font-family: 'Vollkorn', serif;
+
+                }
+                .comment__author {
+                    margin-top: 10px;
+                    font-size: 13px;
+                    color: rgba(199, 170, 139, 1);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+@media (max-width: 991px) {
+
+    .scroll_up {
+        display: none !important; 
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 25px;
+            .nav {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                position: absolute;
+                flex-direction: column;
+                right: -100%;
+                top: 60px;
+                height: 50vh;
+                background: rgba(200, 180, 139, 0.8);
+                width: 50%;
+                transition: all .5s;
+                a {
+                    .nav__link {
+                        border: none;
+                        border-top: 1px solid #4D4D4D;
+                        border-bottom: 1px solid #4D4D4D;
+                        &:first-child {
+                            border-left: none;
+                        }
+                    }
+                }
+            }
+            .header__social {
+                display: none;
+            }
+            .burger {
+                display: block;
+            }
+        }
+    }
+    .active {
+        right: -3% !important;
+    }
+    .intro {
+        margin-top: 60px;
+    }
+    .container:not(.header .container) {
+        max-width: 700px;
+    }
+    .team {
+        .container {
+            .team__wrapper {
+                justify-content: right;
+                .member:nth-child(1):before {
+                    top: -55px;           
+                    left: 50%;
+                    transform: translateX(-50%);
+                }      
+            }
+        }
+    } 
+    .testimonials {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
+        .container {
+            width: 100%;
+            .wrapper {
+                margin-top: 0;
+                
+                .comment {
+                    margin: 50px auto 0;
+                    &:first-child {
+                        margin-top: 30px;
+                    }
+                }        
+            }
+        }
+    }
+  
+}
+
+@media (max-width: 768px) {
+    .intro {
+        height: auto;
+        .container {
+            .title {
+                font-size: 60px;
+            }
+        }
+    } 
+    .sand {
+        .container {
+            .sand__text {
+                font-size: 38px;
+            }
+        } 
+    } 
+    .team {
+        height: auto;
+        padding: 50px 0px;
+        .container {
+            .team__wrapper {
+                flex-direction: column;
+                .member {
+                    margin: 50px auto 0;
+                    text-align: center;
+                    &:nth-child(1):before {
+                        top: -20px;
+                    }   
+                    .member__social {
+                        justify-content: center;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .intro {
+        .container {
+            .title {
+                font-size: 48px;
+            }
+        }
+    }
+    .features {
+        height: auto;
+        .container {
+            flex-wrap: wrap;
+            width: 300px;
+            .features__item {
+                margin-bottom: 70px;
+                .item__text {
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+    .sand {
+        .container {
+            max-width: 400px !important;
+            .sand__text {
+                font-size: 32px;
+            }
+        } 
+    }
+    .footer {
+        height: auto;
+        padding: 30px 0;
+        .container {
+            .footer__wrapper {
+                flex-direction: column;
+                .btn-footer {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    width: 250px;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    .intro {
+        .container {
+            .title {
+                font-size: 34px;
+            }
+            .subtitle {
+                padding: 0 45px;
+            }
+        }
+    }
+    .sand {
+        .container {
+            padding: 0 15px;
+            .sand__text {
+                font-size: 28px;
+            }    
+        }
+    }
+    .testimonials {
+        .container {
+            .wrapper {
+                margin: 0 15px;
+            }
+        }
+    }
+
+}

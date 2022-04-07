@@ -1,0 +1,52 @@
+.team {
+    height: 570px;
+    padding-top: 80px;
+    .container {
+        position: relative;
+        .team__wrapper {
+            display: flex;
+            justify-content: end;
+            .member {
+                margin-left: 20px;
+                color: rgba(77, 77, 77, 1);
+                &:nth-child(1):before {
+                    content: 'the team';
+                    display: block;
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                }
+
+                .member__photo {
+
+                }
+                .member__name {
+                    margin-top: 10px;
+                    font-size: 16px;
+                }
+                .member__position {
+                    margin-top: 5px;
+                    font-size: 12px;
+                    font-family: 'Vollkorn', serif;
+
+                }
+                .member__social {
+                    margin-top: 10px;
+                    display: flex;
+                    .social__icon {
+                        margin-right: 10px;
+                        cursor: pointer;
+                        &:hover {
+                            transition: .1s linear;
+                            transform: rotate(15deg);
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+}

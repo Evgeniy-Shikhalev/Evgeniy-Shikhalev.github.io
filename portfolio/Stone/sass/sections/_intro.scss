@@ -1,0 +1,51 @@
+
+.intro {
+    background: #C7AA8B url('../img/intro_bg.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    padding-top: 70px;
+    .container {
+        flex-direction: column;
+        text-align: center;
+        .title {
+            font-size: 78px;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+        .line {
+            margin: 35px auto 18px;
+            width: 60px;
+            height: 2px;
+            background: #fff;
+
+        }
+        .subtitle {
+            font-size: 18px;
+            font-family: 'Vollkorn', serif;
+            opacity: .8;
+
+        }
+        .btn-intro {
+            margin: 50px auto;
+            width: 135px;
+            height: 40px;
+            text-transform: uppercase;
+            background: none;
+            color: #fff;
+            font-size: 16px;
+            border: #fff 2px solid;
+            opacity: 90%;
+            transition: .1s linear;
+            outline: none;
+
+            &:hover {
+                background: rgba(255, 255, 255, 1);
+                color: #C7AA8B;
+                cursor: pointer;
+                transition: .1s linear;
+            }
+
+        }
+    }
+}
