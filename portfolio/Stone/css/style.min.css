@@ -548,14 +548,13 @@ html {
     right: -100%;
     top: 60px;
     height: 50vh;
-    background: rgba(200, 180, 139, 0.8);
+    background: rgba(200, 180, 139, 0.9);
     width: 50%;
     -webkit-transition: all .5s;
     transition: all .5s;
   }
   .header .container .nav a .nav__link {
     border: none;
-    border-top: 1px solid #4D4D4D;
     border-bottom: 1px solid #4D4D4D;
   }
   .header .container .nav a .nav__link:first-child {
