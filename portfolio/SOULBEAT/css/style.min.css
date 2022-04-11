@@ -12,16 +12,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.scroll_up {
-  position: absolute;
-  bottom: 0px;
-  right: 40px;
-}
-
-.scroll_up img {
-  width: 500px;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -108,8 +98,8 @@ html {
   outline: none;
   background: none;
   border: none;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   cursor: pointer;
 }
 
@@ -588,7 +578,7 @@ html {
     position: fixed;
     z-index: 999;
     background: #0b090a;
-    padding: 0 25px;
+    padding: 0 10px;
     border-bottom: 2px solid #ba181b;
     height: 55px;
   }
