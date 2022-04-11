@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Condensed', serif;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll_up {
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  img {
+    width: 500px;
+  }
+}
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  @import 'sections/header';
+  @import 'sections/home';
+  @import 'sections/course';
+  @import 'sections/styles';
+  @import 'sections/join';
+  @import 'sections/@media';
+
+
+
+
+
