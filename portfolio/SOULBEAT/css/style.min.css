@@ -114,8 +114,8 @@ html {
 
 .home .container .header .burger .burger__item {
   display: block;
-  width: 40px;
-  height: 4px;
+  width: 30px;
+  height: 3px;
   background: #fff;
   position: relative;
 }
@@ -132,11 +132,11 @@ html {
 }
 
 .home .container .header .burger .burger__item::before {
-  top: -10px;
+  top: -8px;
 }
 
 .home .container .header .burger .burger__item::after {
-  bottom: -10px;
+  bottom: -8px;
 }
 
 .home {
@@ -584,11 +584,12 @@ html {
     top: 80px !important;
   }
   .home .container .header {
+    height: 60px
     position: fixed;
     z-index: 999;
     background: #0b090a;
     padding: 0 25px;
-    border-bottom: 3px solid #ba181b;
+    border-bottom: 2px solid #ba181b;
   }
   .home .container .header .header__nav {
     display: -webkit-box;
@@ -682,7 +683,7 @@ html {
 
 @media (max-width: 480px) {
   .home .container .header .header__logo img {
-    height: 40px;
+    height: 30px;
   }
   .home .container .header .header__logo .header__title {
     font-size: 30px;
