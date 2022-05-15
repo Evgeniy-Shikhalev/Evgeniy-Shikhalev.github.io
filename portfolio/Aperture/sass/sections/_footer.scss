@@ -1,0 +1,115 @@
+.footer {
+    background: rgba(0, 0, 0, 1);
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container {
+
+        .first-floor {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 35px;
+
+            .logo-section {
+                .footer__logo {
+
+                }
+                .subtitle {
+                    margin-top: 20px;
+                    color: rgba(192, 192, 192, 1);
+                    font-size: 13px;
+                    padding-right: 50px;
+                }
+            }
+            .link-section {
+                display: flex;
+                text-decoration: none;
+                .business {
+                    .title {
+                        color: rgba(192, 192, 192, 1);
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+                    .footer__link {
+                        display: block;
+                        margin-top: 10px;
+                        text-decoration: none;
+                        line-height: 1.2;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .pages {
+                    margin: 0 90px;
+                    .title {
+                        color: rgba(192, 192, 192, 1);
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                    }
+                    .footer__link {
+                        display: block;
+                        text-decoration: none;
+                        margin-top: 10px;
+                        &:hover {
+                            text-decoration: underline;                           
+                        }
+                    }
+                }
+            }
+        }
+        .second-floor {
+            margin-top: 35px;
+            margin-bottom: 35px;
+            display: flex;
+            justify-content: space-between;
+            .text-section {
+                .title {
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+                .descr {
+                    margin-top: 20px;
+                    color: rgba(192, 192, 192, 1);
+                }
+            }
+            .form {
+                position: relative;
+
+                .input {
+                    width: 455px;
+                    height: 50px;
+                    border-radius: 12px;
+                    border: none;
+                    color: #000;
+                    padding: 5px 80px 5px 15px;
+                }
+                .form-btn {
+                    width: 60px;
+                    height: 30px;
+                    background: #000;
+                    border-radius: 11px;
+                    border: none;
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .third-floor {
+            margin-top: 55px;
+            display: flex;
+            justify-content: space-between;
+            .rights {
+                color: rgba(192, 192, 192, 1);
+            }
+            .socials {
+                display: flex;
+                .socials__icon {
+                    margin-left: 25px;
+                }
+            }
+        }
+    }
+}

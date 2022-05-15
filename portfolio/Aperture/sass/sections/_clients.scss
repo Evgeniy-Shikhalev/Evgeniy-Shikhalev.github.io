@@ -1,0 +1,18 @@
+.clients {
+    padding-top: 110px;
+    background: rgba(0, 0, 0, 1);
+    height: 500px;
+    text-align: center;
+    .clients__title {
+        font-size: 40px;
+    }
+    .clients__subtitle {
+        font-size: 24px;
+        color: rgba(192, 192, 192, 1);
+        margin-top: 15px;
+    }
+    .clients__brand {
+        margin-top: 70px;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+.intro {
+    background: url('../img/main_bg.jpg') center no-repeat;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: end;
+        .intro__text {
+            margin: 0 auto;
+            text-align: center;
+            max-width: 580px;
+            margin-bottom: 90px;
+
+            .subtitle {
+                text-transform: uppercase;
+                color: rgba(192, 192, 192, 1);
+                line-height: 0;
+                letter-spacing: 2px;
+            }
+            .title {
+                font-size: 54px;
+            }
+            .descr {
+                margin-top: 10px;
+                line-height: 1.1;
+                color: rgba(192, 192, 192, 1);
+            }
+        }
+        .intro__photo-set {
+            position: absolute;
+            right: 45px;
+            bottom: 40px;
+        }
+    }
+}

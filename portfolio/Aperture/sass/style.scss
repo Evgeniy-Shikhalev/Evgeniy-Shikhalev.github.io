@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import 'sections/header';
+@import 'sections/intro';
+@import 'sections/areas';
+@import 'sections/fuji';
+@import 'sections/tools';
+@import 'sections/leafs';
+@import 'sections/clients';
+@import 'sections/nepal';
+@import 'sections/help';
+@import 'sections/footer';
+@import 'sections/@media';
+
+

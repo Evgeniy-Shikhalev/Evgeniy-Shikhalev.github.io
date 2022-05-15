@@ -1,0 +1,195 @@
+@media (max-width: 991px) {
+    .header {
+        position: fixed;
+        z-index: 999;
+    }
+    .header .container .header__nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        height: 100vh;
+        background: rgba(0, 0, 0, .9);
+        right: 0;
+        top: 90px;
+        z-index: 999;
+        padding-top: 30px;
+        
+    }
+    .header .container .header__nav .header__btn {
+        display: none;
+    }
+    .header .container .burger {
+        display: block;
+    }
+    .header .container .header__nav .nav__link {
+        height: auto;
+        margin-left: 0;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .intro {
+        height: 600px;
+    }
+
+    .tools {
+        display: block;
+
+        .tools-left {
+            width: 100%;
+            padding: 100px 15px;
+            .text {
+                margin: 0 auto;
+                text-align: center;
+            }
+            .tools__btn {
+                margin: 20px auto 0;
+            }
+        }
+        .tools-right {
+            width: 100%;
+            .tools__img {
+                width: 100%;
+                height: auto;
+                max-height: 600px;
+            }
+        }
+    }
+    .footer {
+        padding-bottom: 50px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        .container {
+
+            .first-floor {
+                display: block;
+                .logo-section {
+                    text-align: center;
+                    .subtitle {
+                        padding-right: 0;
+                        margin: 0;
+                    }
+                }
+                .link-section {
+                    margin-top: 40px;
+                    justify-content: center;
+                    .pages {
+                        margin: 0 15px;
+                    }
+                    .business {
+                        margin: 0 15px;
+                    }
+                }
+            }
+            .second-floor {
+                display: block;
+                .text-section {
+                    text-align: center;
+                    .descr {
+                        margin: 0;
+                    }
+                }
+                .form {
+                    .input {
+                        display: block;
+                        margin: 30px auto 0;
+                        width: 85%;
+    
+                    }
+                    .form-btn {
+                        right: 10%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 50px;
+    }
+    .header .container .header__logo {
+        width: 100px;
+    }
+    .header .container .header__nav {
+        top: 50px;
+    }
+
+    .intro {
+        height: 450px;
+
+    }
+    .intro .container .intro__text .title {
+        font-size: 40px;
+        line-height: 1.2;
+        margin-top: 5px;
+    }
+    .intro .container .intro__photo-set {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .areas .container .areas__title {
+        font-size: 36px;
+    }
+    .areas .container .areas__subtitle {
+        font-size: 22px;
+        padding: 0 15px;
+    }
+    .fuji {
+        align-items: center;
+    }
+    .fuji .fuji__photo-set {
+        right: auto;
+    }
+    .fuji .fuji__text {
+        margin-right: 0;
+    }
+    .leafs {
+        align-items: center;
+
+    }
+    .leafs .leafs__photo-set {
+        right: auto;
+    }
+    .leafs .leafs__text {
+        margin-right: 0;
+        padding-right: 0;
+
+    }
+    .clients {
+        overflow: hidden;
+    }
+    .clients .clients__brand {
+        max-width: 165%;
+    }
+    .clients .clients__title {
+        font-size: 36px;
+
+    }
+    .clients .clients__subtitle {
+        font-size: 22px;
+        padding: 0 15px;
+    }
+    .nepal {
+        align-items: center;
+    }
+    .nepal .nepal__photo-set {
+        right: auto;
+    }
+    .nepal .nepal__text {
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .help .help__title {
+        font-size: 36px;
+    }
+    .help .help__subtitle {
+        font-size: 22px;
+    }
+}
